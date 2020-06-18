@@ -9,7 +9,7 @@ import (
 
 func main() {
 	has := sha256.New()
-	parent := "go/sha256/"
+	parent := "go-snippets/sha256/"
 	file, err := os.Open(parent+"raj.txt")
 	if err != nil {
 		panic(err )
