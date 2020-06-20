@@ -71,3 +71,9 @@ func (stack *MinMaxStack) GetMax() int {
 	}
 	return stack.max[len(stack.max)-1]
 }
+
+//This is just a dummy main , test cases cover the required functionalities
+func main()  {
+	stack := NewMinMaxStack()
+	stack.Push(5)
+}
